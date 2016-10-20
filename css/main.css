@@ -1,0 +1,87 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+html {
+ position: relative;
+ min-height: 100%;
+}
+body {
+  background: #3E4E50;
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+/* --------- NAV --------- */
+.navbar-brand {
+  font-family: 'Amatic SC', cursive;
+  font-size: 3em;
+  font-weight: bold;
+}
+.navbar-inverse .navbar-brand {
+  color: #fff;
+}
+
+/* --------- CONTAINER --------- */
+.kydforest {
+    min-height: 300px;
+    
+}
+
+.maincontainer {
+  background: #FACFAD;
+}
+.maincontainer h2 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 5em;
+}
+
+/* --------- ELEMENTS ---------*/
+ul {
+	border:none;
+	padding: 0;
+  margin: 0;
+	margin-top: 10px;
+}
+li {
+	background-color: #ec8b68;
+	color: #fff;
+	border-top: 1px solid #fe9772;
+	border-bottom: 1px solid #9f593f;
+	font-size: 24px;
+	letter-spacing: .05em;
+	list-style-type: none;
+	text-shadow: 2px 2px 1px #9f593f;
+	height: 50px;
+	padding-left: 1em;
+	padding-top: 10px;
+}
+
+/* --------- FOOTER --------- */
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 70px;
+  padding-top: 10px;
+
+  background-color: #F5AC72;
+  font-family: 'Slabo 27px', serif;
+  font-weight: bold;
+  text-align: center;
+}
+footer p.ligher {
+  font-weight: lighter;
+}
+
+/* --------- MEDIA QUERY --------- */
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .kydforest {
+      min-height: 570px;
+      background: url('../img/treeflowers2.png') center bottom no-repeat;
+  }
+}
