@@ -1,2 +1,0 @@
-# krzyskosite
-simple page template
