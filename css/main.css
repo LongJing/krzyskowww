@@ -12,6 +12,7 @@ body {
   background: #3E4E50;
   /* Margin bottom by footer height */
   margin-bottom: 60px;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 /* --------- NAV --------- */
@@ -27,7 +28,7 @@ body {
 /* --------- CONTAINER --------- */
 .kydforest {
     min-height: 300px;
-    
+
 }
 
 .maincontainer {
@@ -58,7 +59,9 @@ li {
 	padding-left: 1em;
 	padding-top: 10px;
 }
-
+.info {
+  font-size: 0.6em;
+}
 /* --------- FOOTER --------- */
 footer {
   position: absolute;
