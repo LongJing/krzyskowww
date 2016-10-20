@@ -27,7 +27,7 @@ body {
 
 /* --------- CONTAINER --------- */
 .kydforest {
-    min-height: 300px;
+    min-height: 100px;
 
 }
 
@@ -46,7 +46,7 @@ ul {
   margin: 0;
 	margin-top: 10px;
 }
-li {
+h4 {
 	background-color: #ec8b68;
 	color: #fff;
 	border-top: 1px solid #fe9772;
@@ -58,9 +58,21 @@ li {
 	height: 50px;
 	padding-left: 1em;
 	padding-top: 10px;
+  margin-top:0px;
+  margin-bottom:0px;
 }
-.info {
-  font-size: 0.6em;
+.details {
+  border-left: 1px solid #3E4E50;
+  border-right: 1px solid #3E4E50;
+  border-bottom: 1px solid #3E4E50;
+  background: #F5AC72;
+  padding-top: 0.8em;
+}
+.details p {
+  padding-left: 3em;
+}
+h4 {
+
 }
 /* --------- FOOTER --------- */
 footer {
